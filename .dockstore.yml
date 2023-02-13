@@ -1,0 +1,10 @@
+version: 1.2
+workflows:
+  - name: bio-diversity-genomics-garg
+    subclass: WDL
+    primaryDescriptorPath: /1_script_examples/1_hello_worlds/7_subworkflow/hello-workflow.wdl
+    testParameterFiles:
+      - /1_script_examples/1_hello_worlds/7_subworkflow/hello-workflow.json
+    authors:
+      - name: Flynn Hembroff
+        email: flynn.hembroff@oicr.on.ca
